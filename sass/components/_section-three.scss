@@ -4,6 +4,20 @@
     justify-content: center;
   }
 
+  .sectiom-three {
+    display: none;
+    @media (min-width: 768px) {
+      display: block;;
+  }
+  }
+
+  .sectiom-three__container {
+    display: none;
+    @media (min-width: 768px) {
+      display: block;;
+  }
+  }
+
   .section-three__list-image-item {
     position: relative;
   }

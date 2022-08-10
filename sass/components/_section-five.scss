@@ -3,10 +3,17 @@
   }
   
   .section-five__clients-list {
+display: flex;
+flex-direction: column;
+gap: 15px;
+    @media (min-width: 768px) {
+
     display: flex;
     justify-content: center;
     align-items: center;
   }
+    }
+
   
   .section-five__clients-list-item-company-link {
     display: flex;

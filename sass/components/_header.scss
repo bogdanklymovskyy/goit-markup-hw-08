@@ -228,3 +228,14 @@
     padding-top: 32px;
   }
   
+
+.header__desktop-menu {
+display: none;
+@media (min-width: 768px) {
+  display: flex;
+}
+}
+
+.header__contact-list {
+  margin-left: 280px;
+}

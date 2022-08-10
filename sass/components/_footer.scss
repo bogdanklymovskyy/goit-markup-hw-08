@@ -93,9 +93,23 @@
   }
   
   footer {
+display: flex;
+flex-direction: column;
+    @media (min-width: 768px) {
     display: flex;
+    flex-direction: row;
+      }
   }
-  
+  .fk1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        @media (min-width: 768px) {
+        display: flex;
+        flex-direction: row;
+          }
+      }
+
   .footer .footer__social-title {
     margin-bottom: 20px;
     font-size: 14px;

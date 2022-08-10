@@ -23,6 +23,14 @@
   
   .section-six__button-list {
     margin-bottom: 50px;
+
+    @media (max-width: 768px) {
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 362px;
+    justify-content: flex-start;
+    }
   }
   
   .section-six__button-list-item {
